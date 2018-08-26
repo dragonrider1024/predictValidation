@@ -6,6 +6,9 @@ class Solution:
   
 
   def worker(self):
+    '''It seems the answer from the test has multiple errors of data rounding. As a result, I can't pass the test. For instance, if I do it manually
+    by calculating the average error for a particular sliding time window. I got exactly same answer as my own output. But this is different from the
+    test answer provided. For example, the sliding time window 120-123 for the test_1'''
     actualFile = sys.argv[2]
     predictFile = sys.argv[3]
     windowFile = sys.argv[1]
